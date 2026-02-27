@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I am Devanjali Biju.</p>
+
+    <h2>Contact Me</h2>
+
+    <!-- Add autocomplete="on" to the form tag -->
+    <form id="contactForm" autocomplete="on">
+        <!-- Specify autocomplete="name" for the name field -->
+        <input type="text" id="name" placeholder="Your Name" required autocomplete="name"><br><br>
+        
+        <!-- Specify autocomplete="email" for the email field -->
+        <input type="email" id="email" placeholder="Your Email" required autocomplete="email"><br><br>
+        
+        <!-- Specify autocomplete="off" for the message field (optional) -->
+        <textarea id="message" placeholder="Your Message" required autocomplete="off"></textarea><br><br>
+        
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="responseMsg"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
