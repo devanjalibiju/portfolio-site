@@ -1,28 +1,38 @@
+/* Center everything */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6f0;
-    text-align: center;
-    padding: 20px;
+    background: linear-gradient(to right, #FF69B4, #FFB6C1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1, h2 {
-    color: #333;
-}
-
-input, textarea {
+/* Form container */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
     width: 300px;
-    padding: 10px;
-    margin-bottom: 10px;
 }
 
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
 button {
-    padding: 10px 20px;
-    background-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    background: #008000;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
 }
